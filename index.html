@@ -12,6 +12,26 @@
             background: white;
             padding: 20px;
         }
+
+        @font-face {
+    font-family: 'MyFont';
+    src: url('FONT/tharwat-emara-ruqaa-light.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'MyFont', sans-serif;
+            font-size: 400%;
+        }
+
+        p {
+            font-family: 'MyFont', sans-serif;
+            text-align: justify;
+            text-align-last: center;
+            width: 50%;
+            margin: 0 auto;
+            line-height: 1.5;
+            color: #86925C;
+        }
     </style>
 	
 </head>
@@ -35,9 +55,19 @@
                     </a>
                     <p style="margin: 20% 0;"></p>
 
-	
-					<img src="IMAGES/second text.png" alt="second Image" width="60%">
-					<p style="margin: 20% 0;"></p>
+	                <!-- <img src="IMAGES/second text.png" alt="second Image" width="60%"> -->
+                     <p onclick="var
+                      t=[
+                        'اني اشوفج مثل هاي الوردة باللون الوردي حيث انو شكد اكو ورد بالعالم لكن تبقين انتي اكثر وردة مميزة عندي <br>(اضغطي هنا)',
+                        'انتي افضل شخص مر بحياتي واريدج تعرفين هل شي تره فرحج فرحي وحزنج خزني فا باقي فرحانة احسن لج <br>(اضغطي هنا)',
+                        'يومي هاذا الج فقط من رجعت لحد ما دزيته اني جنت اسوي بهذا الج وانتي وبس (ما اكدر احط ايموجي غمزة) <br>(اضغطي هنا)',
+                        'اذا ضغطي على البوكيه في حاجة تنتظرج '
+                                        ];
+                      var i=parseInt(this.getAttribute('data-i'))||0; 
+                      i=(i+1)%t.length; 
+                      this.innerHTML=t[i]; 
+                      this.setAttribute('data-i',i);" data-i="0">اضغطي هنا</p>
+					<p style="margin: 50% 0;"></p>
 
             </div>
         </td>
