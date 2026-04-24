@@ -7,51 +7,114 @@
 	<style>
         .page {
             
-            min-height: 100vh;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
+            width: 400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+        }
+
+
+        @font-face {
+            font-family: 'MyFont';
+            src: url('FONT/tharwat-emara-ruqaa-light.ttf') format('truetype');
         }
 
         @font-face {
-    font-family: 'MyFont';
-    src: url('FONT/tharwat-emara-ruqaa-light.ttf') format('truetype');
+            font-family: 'MyFont1';
+            src: url('FONT/Baskerville Old Face Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'MyFont2';
+            src: url('FONT/Stadella.ttf') format('truetype');
+        }
+
+        
+        @font-face {
+            font-family: 'MyFont3';
+            src: url('FONT/decotype-naskh-swashes.ttf') format('truetype');
+        }
+
+         @font-face {
+            font-family: 'MyFont4';
+            src: url('FONT/BRUSHSCI.TTF') format('truetype');
         }
 
         body {
+
+             margin: 0;
+    background-color: #f0f0f0;
+    
+            background-image: url('IMAGES/Background/bg.svg');
+             background-repeat: repeat-y;
+
             font-family: 'MyFont', sans-serif;
-            font-size: 150%;
+            font-size: 400%;
         }
 
         p {
             font-family: 'MyFont', sans-serif;
             text-align: justify;
             text-align-last: center;
-            width: 80%;
+            width: 60%;
             margin: 0 auto;
             line-height: 1.5;
             color: #86925C;
         }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+        
     </style>
 	
 </head>
 <body>
+    
 
-<table width="100%" height="100%">
-    <tr>
-        <td valign="top">
+
             <div align="center">
-                    <img src="IMAGES/header.png" alt="Header Image" width="100%">
+                    <!--     Header    -->
+                    <img src="IMAGES/Headers/Header Flowers.svg" alt="Header Image" width="100%">
 					<p style="margin: 50% 0;"></p>
 	
-					<img src="IMAGES/specially.png" alt="specially Image" width="40%">
+
+                    <p style="font-family: 'MyFont1'; font-size: 65%;">Specially for</p>
+                   
+                    <p style="font-family: 'MyFont2'; font-size: 500%;margin: 20%;">Tota</p>
+                   
+                    <p style="font-family: 'MyFont1'; font-size: 90%; margin: -5%;">April</p>
+                    <p style="font-family: 'MyFont1'; font-size: 200%;margin: -5%;" >23</p>
+                    <p style="font-family: 'MyFont1'; font-size: 90%;">2026</p>
+
 					<p style="margin: 50% 0;"></p>
+
+                    <p style="font-family: 'MyFont3'; font-size: 100%;color: #EEA0C7;">الى صديقتي المفضلة</p>
+	                <hr width="80%" size="2" color="#EEA0C7">
+                    
+                    <p style="font-family: 'MyFont'; font-size: 85%;color: #CE3E64; margin: 5%;">
+شكد ما تكون الايام عصيبة عليج تذكري اني وياج وراح ابقى كذلك </p>
+                    
+                    <hr width="80%" size="2" color="#EEA0C7">
+<p style="font-family: 'MyFont4'; font-size: 100%;color: #EEA0C7;">Your bestie</p>
+
+					
+					<p style="margin: 25% 0;"></p>
+                    <p style= " text-align-last: justify; margin: 5%; font-family: 'MyFont'; font-size: 50%;color: #B3B8AD;">
+رَأَيتُ الدَهرَ مُختَلِفاً يَدورُ *** فَلا حُزنٌ يَدومُ وَلا سُرورُ
+وَقَد بَنَتِ المُلوكُ بِهِ قَصوراً  *** فَلَم تَبقَ المُلوكُ وَلا القُصورُ        
+            </p>
 	
-					<img src="IMAGES/first text.png" alt="first text Image" width="75%">
-					<p style="margin: 50% 0;"></p>
-	
+
+                    <p style="margin: 25% 0;"></p>
+
                     <a href="https://www.youtube.com/watch?v=uTZM6LsiuCA&list=RDuTZM6LsiuCA&start" target="_blank">
-                       <img src="IMAGES/Roses.png" alt="Roses Image" width="60%">
+                       <img src="IMAGES/Roses/Roses.svg" alt="Roses Image" width="50%">
                     </a>
                     <p style="margin: 20% 0;"></p>
 
@@ -67,18 +130,13 @@
                       i=(i+1)%t.length; 
                       this.innerHTML=t[i]; 
                       this.setAttribute('data-i',i);" data-i="0">اضغطي هنا</p>
-					<p style="margin: 80% 0;"></p>
+					<p style="margin: 100% 0;"></p>
 
+                    <!--     Footer    -->
+                <img src="IMAGES/Footer/Footer Flowers.svg" alt="Footer Image" width="100%">
             </div>
-        </td>
-    </tr>
-    <tr>
-        <td valign="bottom">
-            <div align="center">
-                <img src="IMAGES/footer.png" alt="Footer Image" width="80%">
-            </div>
-        </td>
-    </tr>
-</table>
+
 </body>
+
+
 </html>
